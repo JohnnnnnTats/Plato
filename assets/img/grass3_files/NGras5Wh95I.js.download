@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("createErrorForMAIBALogger",["err"],(function(a,b,c,d,e,f,g){"use strict";function a(a){if(a instanceof Error)return a;else try{return c("err")((a=JSON.stringify(a))!=null?a:"Unknown error")}catch(a){return c("err")("Unknown error")}}g["default"]=a}),98);
